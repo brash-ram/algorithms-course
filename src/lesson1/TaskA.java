@@ -11,7 +11,7 @@ public class TaskA {
         long[] arrK = inputArray(k, sc);
 
         for (int i = 0; i < arrK.length; ++i) {
-            if (binarySearch(arrN, arrK[i]) != -1) {
+            if (binarySearch(arrN, arrK[i], 0, arrN.length-1) != -1) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");
@@ -19,18 +19,21 @@ public class TaskA {
         }
     }
 
-    private static int binarySearch(long[] arr, long el) {
-        int l = -1;
-        int r = arr.length;
-        while (l + 1 < r) {
-            int m = (l + r) / 2;
-            if (arr[m] > el) {
-                l = m;
-            } else {
-                r = m;
+    private static int binarySearch(long[] arr, long el, int low, int high) {
+        int index = -1;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] < el) {
+                low = mid + 1;
+            } else if (arr[mid] > el) {
+                high = mid - 1;
+            } else{
+                index = mid;
+                break;
             }
         }
-        return l;
+        return index;
     }
 
     private static long[] inputArray(int size, Scanner sc) {

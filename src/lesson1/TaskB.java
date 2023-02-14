@@ -10,7 +10,9 @@ public class TaskB {
         long[] sortedArr = inputArray(n, sc);
         long[] queries = inputArray(k, sc);
         for (int i = 0; i < k; i++) {
-            System.out.println(binarySearch(sortedArr, queries[i], -1, n));
+            long query = queries[i];
+            int leftInd = binarySearch(sortedArr, query, -1, n);
+            System.out.println(Math.min(sortedArr[leftInd], sortedArr[leftInd+1]));
         }
     }
 
@@ -27,11 +29,14 @@ public class TaskB {
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if (sortedArray[mid] < valueToFind) {
+            if (sortedArray[mid] < valueToFind && sortedArray[mid+1] > valueToFind) {
+                index = mid;
+                break;
+            } else if (sortedArray[mid] < valueToFind) {
                 low = mid + 1;
             } else if (sortedArray[mid] > valueToFind) {
                 high = mid - 1;
-            } else if (sortedArray[mid] == valueToFind) {
+            } else {
                 index = mid;
                 break;
             }
