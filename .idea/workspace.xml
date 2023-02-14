@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6582068b-18a7-4af6-a773-c1021f564db6" name="Changes" comment="">
+    <list default="true" id="6582068b-18a7-4af6-a773-c1021f564db6" name="Changes" comment="added task A, B">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson1/TaskC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson1/TaskA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/TaskA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson1/TaskB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/TaskB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TaskB">
+  <component name="RunManager" selected="Application.TaskC">
     <configuration name="TaskA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.TaskA" />
       <module name="algorithms-course" />
@@ -91,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson1.TaskC" />
+      <module name="algorithms-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskC" />
         <item itemvalue="Application.TaskB" />
         <item itemvalue="Application.TaskA" />
       </list>
@@ -112,6 +126,14 @@
       <workItem from="1676359707873" duration="97000" />
       <workItem from="1676388245316" duration="756000" />
     </task>
+    <task id="LOCAL-00001" summary="added task A, B">
+      <created>1676391044902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676391044902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +149,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added task A, B" />
+    <option name="LAST_COMMIT_MESSAGE" value="added task A, B" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
