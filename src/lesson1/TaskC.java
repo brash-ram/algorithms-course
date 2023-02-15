@@ -15,14 +15,14 @@ public class TaskC {
 
     private static void customBinarySearch(Scanner sc, long n, long mid) {
         long l = 0L, r = n;
-        while (l <= r) {
+        while (l + 1 < r) {
             String status = sc.nextLine();
-            if (Objects.equals(status, "<")) {
-                l = mid + 1;
+            if (Objects.equals(status, ">=")) {
+                l = mid;
             } else {
-                r = mid + 1;
+                r = mid;
             }
-            mid = (r - l) / 2;
+            mid = (r + l) / 2;
             System.out.println(mid);
             System.out.flush();
         }

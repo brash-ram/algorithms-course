@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6582068b-18a7-4af6-a773-c1021f564db6" name="Changes" comment="added task A, B">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson1/TaskC.java" afterDir="false" />
+    <list default="true" id="6582068b-18a7-4af6-a773-c1021f564db6" name="Changes" comment="some update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson1/TaskC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/TaskC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +165,11 @@
           <url>file://$PROJECT_DIR$/src/lesson1/TaskB.java</url>
           <line>43</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson1/TaskC.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
